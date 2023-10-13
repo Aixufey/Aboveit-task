@@ -1,0 +1,21 @@
+.header-container {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.header-container ul {
+    list-style-type: none;
+}
+.header-container li {
+    display: inline-block;
+}
+.header-container a {
+    padding: 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
